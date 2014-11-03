@@ -1,0 +1,20 @@
+From: Florian Preinstorfer <fp@xell.at>
+Date: Mon, 3 Nov 2014 09:42:47 +0100
+Subject: Add test_suite in setup.py.
+
+---
+ setup.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/setup.py b/setup.py
+index a7589a6..b74f041 100644
+--- a/setup.py
++++ b/setup.py
+@@ -11,6 +11,7 @@ setup(name='junit-xml',
+ 	url='https://github.com/kyrus/python-junit-xml',
+ 	license='MIT',
+ 	packages=find_packages(),
++	test_suite="test_junit_xml",
+ 	description='Creates JUnit XML test result documents that can be read by tools such as Jenkins',
+ 	long_description=read('README.rst'),
+ 	version = "1.3",

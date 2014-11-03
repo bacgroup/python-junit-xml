@@ -1,0 +1,6 @@
+python-junit-xml (1.3+git20141031-1) unstable; urgency=medium
+
+  * [b15f218] Imported Upstream version 1.3+git20141031
+  * Closes: #767881
+
+ -- Florian Preinstorfer <fp@xell.at>  Fri, 31 Oct 2014 13:40:56 +0100
